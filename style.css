@@ -173,17 +173,12 @@ input {
 @media screen and (max-width: 1200px) {
 
     #container {
-        height: 100vh;
-        width: 100vw;
         background: url('imgs/fundo claro mobile.png') center/cover no-repeat;            
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
     }
 
         #login_form {
+            height: 100vh;
             padding: 0;
-            margin: 150px auto 0;
+            margin: 200px auto 0;
         }
 }
