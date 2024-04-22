@@ -172,6 +172,10 @@ input {
 
 @media screen and (max-width: 1200px) {
 
+    html,body {
+        overflow-y: hidden;
+    }
+
     #container {
         background: url('imgs/fundo claro mobile.png') center/cover no-repeat;            
     }
