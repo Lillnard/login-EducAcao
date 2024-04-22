@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css" id="stylesheet-link">
+
+
+    <title>login</title>
+</head>
+<body>
+    <main id="container">
+        <form id="login_form">
+
+            <div id="form_header">
+                <h3>Boas vindas!</h3>
+                <h1>Faça o seu <span>Login</span></h1>
+            </div>
+
+            <div id="inputs">
+                <div class="input-box">
+                    <label for="name">
+                        Usuário:
+                    </label>
+                        <div class="input-field">
+                            <i class="fa-solid fa-user"></i>
+                            <input type="text" id="name" name="name">
+                        </div>
+                </div>
+                        
+                <div class="input-box">
+                    <label for="password">
+                        Senha:
+                    </label>
+                        <div class="input-field">
+                            <i class="fa-solid fa-lock"></i>
+                            <input type="password" id="password" name="password">
+                        </div>                         
+                </div>
+
+                <div id="forgot_password">
+                    <a href="#">Esqueceu a sua senha?</a>
+                </div>
+                <div class="new_account">
+                    <a href="">Crie sua conta</a>
+                    <span>ou</span>
+                </div>
+            </div>
+
+            <div id="social_media">
+                <div class="social-txt">
+                    <p>Faça login com a uma conta alternativa</p>
+                </div>
+
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="imgs/icons8-google-logo-48.png" alt="google_logo">
+                    </a>
+                
+                    <a href="#">
+                        <img src="imgs/icons8-facebook-novo-48.png" alt="facebook_logo">
+                    </a>
+
+                </div>
+            </div>
+
+
+            <button type="submit" id="login_button">
+                Iniciar sessão
+            </button>
+        </form>
+    </main>
+<script types="text/javascript" src="script.js"></script>
+</body>
+</html>

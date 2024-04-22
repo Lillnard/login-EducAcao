@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    height: 100vh;
+    width: 100vw;
+    background: url('imgs/fundo claro.png') center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+#login_form {
+    position: absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+    height: 100vh;
+    right: 50px;
+}
+
+#form_header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+#form_header h3 {
+    color: #362c79;
+}
+
+#form_header h1 {
+    font-size: 35px;
+    justify-content: center;
+    position: relative;
+    color: #715CF8;
+}
+
+#form_header h1 span {
+    color: #715CF8;
+}
+
+#mode_icon {
+    cursor: pointer;
+    font-size: 20px;
+}
+
+#social_media {
+    display: flex;
+    flex-direction: column;
+}
+
+.social-txt {
+    font-size: 15px;
+    color: #715CF8;
+    font-weight: 600;
+}
+
+.social-icons {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-icons img {
+    width: 35px;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input {
+    color: #362c79;
+}
+
+.input-box label {
+    font-size: 14px;
+    color: #362c79;
+    font-weight: 600;
+}
+
+.input-field {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 3px;
+    cursor: text;
+    border-bottom: 1px solid #715CF8;
+}
+
+.input-field i {
+    font-size: 18px;
+    color: #362c79;;
+}
+
+.input-field input {
+    border: none;
+    background-color: transparent;
+    width: 260px;
+    font-size: 18px;
+    padding: 0px 5px;
+}
+
+.input-field input:focus {
+    outline: none;
+}
+
+#forgot_password{
+    margin-top: -20px;
+}
+
+#forgot_password a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #715CF8;
+    font-weight: 600;
+}
+
+#forgot_password a:hover {
+    color: #362c79;
+}
+
+.new_account {
+    text-align: center;
+    color: #715CF8;
+    font-weight: 600;
+}
+
+.new_account a{
+    color: #362c79;
+    text-decoration: none;
+}
+
+.new_account a:hover {
+    color: #715CF8;
+}
+
+#login_button {
+    border: none;
+    background: linear-gradient(#715CF8, #362c79);
+    color: aliceblue;
+    padding: 5px;
+    width: 300px;
+    align-items: center;
+    font-size: 18px;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login_button:hover {
+    transform: scale(1.05);
+}

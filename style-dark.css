@@ -1,0 +1,34 @@
+body.dark-mode {
+    background-color: var(--color-dark-100);
+    color: var(--color-light-50);
+}
+
+#container.dark-mode {
+    background: var(--color-dark-100);
+}
+
+#login_form.dark-mode {
+    background-color: var(--color-dark-100);
+    color: var(--color-light-50);
+}
+
+.input-box.dark-mode label {
+    color: var(--color-light-50);
+}
+
+.input-field.dark-mode i {
+    color: var(--color-light-50);
+}
+
+.input-field.dark-mode input {
+    color: var(--color-light-50);
+}
+
+#forgot_password.dark-mode a {
+    color: var(--color-light-50);
+}
+
+#login_button.dark-mode {
+    background-color: var(--color-purple-50);
+    color: var(--color-light-50);
+}
