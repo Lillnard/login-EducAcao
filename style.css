@@ -17,6 +17,10 @@
     position: relative;
 }
 
+.logo {
+    display: none;
+}
+
 #login_form {
     position: absolute;
     z-index: 1;
@@ -25,20 +29,6 @@
     padding: 45px;
     height: 100vh;
     right: 50px;
-}
-
-.logo {
-    margin: -35px auto 0;
-}
-
-.logo h1 {
-    line-height: 27px;
-    color: #FFC544;
-    text-align: center;
-}
-
-.logo h1 span {
-    color: #FF7F1D;
 }
 
 #form_header {
@@ -177,6 +167,7 @@ input {
     border-radius: 3px;
     font-weight: bold;
     cursor: pointer;
+    transition: .2s;
 }
 
 #login_button:hover {
@@ -188,6 +179,21 @@ input {
 
     html,body {
         overflow-y: hidden;
+    }
+
+    .logo {
+        margin: -35px auto 0;
+        display: block;
+    }
+
+    .logo h1 {
+        line-height: 27px;
+        color: #FFC544;
+        text-align: center;
+    }
+
+    .logo h1 span {
+        color: #FF7F1D;
     }
 
     #container {
