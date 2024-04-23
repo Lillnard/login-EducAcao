@@ -94,6 +94,7 @@
     font-size: 15px;
     text-transform: uppercase;
     border: none;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="cad-prof.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <title>Cadastro da turma</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="form-header">
+            <h1>Criando a sua turma:</h1>
+        </div><!-- form-header -->
+
+        <form action="#" method="post">
+
+            <div class="inputs-container">
+                <div class="linha1">
+                    <div class="input-box">
+                        <label for="nome_turma"><span class="input-title">Nome da turma<span></label>
+                        <input type="text" id="nome_turma" name="nome_turma" placeholder="Dê um nome para sua turma"
+                            required>
+                    </div><!-- input-box -->
+
+                    <div class="input-box nome">
+                        <label for="ano"><span class="input-title"> Ano<span></label>
+                        <input type="text" id="ano" name="ano" placeholder="Ano da turma"
+                            required>
+                    </div><!-- input-box -->
+                </div>
+
+                <div class="linha2">
+                    <div class="input-box">
+                        <label for="quantidade_alunos"><span class="input-title">Quantidade de alunos</span></label>
+                        <input type="text" id="quantidade_alunos" name="quantidade_alunos" placeholder="Quantos alunos tem a turma" required>
+                    </div><!-- input-box -->
+
+                    <div class="input-box">
+                        <label for="perfil"><span class="input-title">Perfil</span></label>
+                        <input type="text" id="perfil" name="perfil" placeholder="Como é o perfil da turma"
+                            required>
+                    </div><!-- input-box -->
+                </div>
+
+                <div class="linha3">
+                    <div class="input-box">
+                        <label for="interação_aluno"><span class="input-title">Interação Aluno X Aluno</span></label>
+                        <input type="text" id="interação_aluno" name="interação_aluno" placeholder="Como alunos interagem entre si?"
+                            required>
+                    </div><!-- input-box -->
+                    
+                    <div class="input-box">
+                        <label for="interação_professor"><span class="input-title">Interação Aluno X Professor</span></label>
+                        <input type="text" id="interação_professor" name="interação_professor" placeholder="Como alunos interagem c/ prof?" required>
+                    </div><!-- input-box -->
+                </div>
+
+                <div class="linha4">
+                    <div class="input-box">
+                        <label for="recursos_disponiveis"><span class="input-title">Recursos disponíveis</span></label>
+                        <input type="text" id="recursos_disponiveis" name="recursos_disponiveis" placeholder="Possui recursos disponíveis?" required>
+                    </div><!-- input-box -->
+
+                    <div class="input-box">
+                        <label for="disciplina_conteudo"><span class="input-title">Disciplina e conteúdo<span></span></label>
+                        <input type="text" id="disciplina_conteudo" name="disciplina_conteudo"
+                            placeholder="Disciplina e conteúdo" required>
+                    </div><!-- input-box -->
+                </div>
+            </div><!-- inputs-container -->
+
+            <div class="btn-submit">
+                <input type="submit" id="submit" value="Próximo">
+            </div><!-- btn-submit -->
+        </form>
+    </div><!-- container -->
+
+
+    <script src="cad-script.js"></script>
+</body>
+
+</html>
