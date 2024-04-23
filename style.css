@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins%3Awght%40100%3B200%3B300%3B400&display=swap%27%29%3B');
+
 
 * {
     font-family: 'Poppins', sans-serif;
@@ -25,6 +25,20 @@
     padding: 45px;
     height: 100vh;
     right: 50px;
+}
+
+.logo {
+    margin: -35px auto 0;
+}
+
+.logo h1 {
+    line-height: 27px;
+    color: #FFC544;
+    text-align: center;
+}
+
+.logo h1 span {
+    color: #FF7F1D;
 }
 
 #form_header {
